@@ -7,10 +7,23 @@ To escape the screenshot mode, you can press escape.
 
 # Installation
 
-Create a conda env named latexocr_trial, then run the following commands.
+First Install miniconda3 by downloading the file, then run it
+```
+bash miniconda3_installer.sh
+~/miniconda3/bin/conda create --name mathlatex
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate mathlatex
+```
+Then install the following libraries
+
 ```
 pip install pix2tex pyperclip pyautogui pynput
 python -m pip install windows_toasts
+```
+
+if you get an error in the first command, you can add the following flag
+```
+--break-system-packages
 ```
 
 Run the main.bat
