@@ -16,7 +16,7 @@ conda activate mathlatex
 ```
 to take screenshots you need scrot
 ```bash
-sudo apt-get install scrot
+sudo apt-get install scrot xclip
 ```
 Then install the following libraries
 
