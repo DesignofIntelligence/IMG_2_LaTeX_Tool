@@ -15,8 +15,8 @@ def send_notification_windows(title="title"):
 
 
 
-def send_notification_linux(title="title", description="description"):
-    subprocess.Popen(['notify-send', title + " " + description])
+def send_notification_linux(title="", description=""):
+    os.system('notify-send "{}" "{}"'.format(title, description))
 
 
 send_notification = None
