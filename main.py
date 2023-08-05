@@ -4,10 +4,10 @@ import pyautogui as pt
 import pyperclip
 from pynput import keyboard as ks
 from sys import platform
-from windows_toasts import WindowsToaster, ToastText1
 
 
 def send_notification_windows(title="title"):
+    from windows_toasts import WindowsToaster, ToastText1
     wintoaster = WindowsToaster("OCR")
     newToast = ToastText1()
     newToast.SetBody(title)
