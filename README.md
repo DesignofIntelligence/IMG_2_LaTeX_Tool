@@ -14,6 +14,10 @@ bash miniconda3_installer.sh
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate mathlatex
 ```
+to take screenshots you need scrot
+```bash
+sudo apt-get install scrot
+```
 Then install the following libraries
 
 ```
